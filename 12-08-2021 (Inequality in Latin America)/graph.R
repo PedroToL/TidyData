@@ -3,7 +3,13 @@ library(tidyverse)
 library(plotly)
 
 # Data
-df <- read_csv("./LatinAmerica/Data/Df.csv")
+df <- read_csv("../12-08-2021 (Inequality in Latin America)/Data/Df.csv") %>% 
+  mutate(
+    region = recode(region, 
+                    'Cono Sur' = "Southern cone",
+                    'Andina' = "Andean", 
+                    'Centroamerica' = "Central America")
+  )
 
 # Graph
 fig <- df %>% filter(year == 2018, region != "-") %>%
@@ -18,9 +24,7 @@ fig <- df %>% filter(year == 2018, region != "-") %>%
                         sizemin = 6,
                         opacity = 0.5),
           colors  = c('#2D49BA', '#57AB3C', '#BB3754FF')
-  ) 
-
-%>% add_trace(
+  ) %>% add_trace(
     text = ~c_name,
     textposition = "top",
     textfont = list(color = '#000000', size = 10),
@@ -35,10 +39,15 @@ fig <- fig %>% layout(title  = 'Relation between GDP per Capita,People living in
                       margin = list(l = 75, r=20, t=75, b=75),
                       paper_bgcolor = 'rgb(200, 200, 200)',
                       plot_bgcolor  = 'rgb(200, 200, 200)',
-                      legend = list(title = list(text = '<b> Region <b>'), x = 0.04, y = .96,
-                                    bgcolor = "#E2E2E2",
-                                    bordercolor = "#FFFFFF",
-                                    borderwidth = 2)
+                      legend        = list(title        = list(text = '<b> Region <b>'),
+                                           x = 0.04, y = .96,
+                                           bgcolor     = "#E2E2E2",
+                                           bordercolor = "#FFFFFF",
+                                           borderwidth = 2),
+                      annotations  = list(x = 1, y = -0.12, text = "Source: World Bank Open Data", 
+                                          showarrow = F, xref='paper', yref='paper', 
+                                          xanchor='right', yanchor='auto', xshift=0, yshift=0,
+                                          font=list(size=15, color="'rgb(100, 100, 100)"))
   )
 
 fig
