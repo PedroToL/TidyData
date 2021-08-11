@@ -9,6 +9,6 @@ Twitter: [@ElPete96](https://twitter.com/ElPete96)
 
 ## Projects
 
-| Date | Name | Link |
-|------|------|------|
+| Date     | Name              | Link                                                                                                         |
+|----------|-------------------|--------------------------------------------------------------------------------------------------------------|
 |12-08-2021| Inequality in LAC | [Repository](https://github.com/PedroToL/TidyData/tree/main/12-08-2021%20(Inequality%20in%20Latin%20America))|
