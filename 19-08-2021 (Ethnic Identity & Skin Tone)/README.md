@@ -1,6 +1,6 @@
 # Skin Tone & Ethnic Identity in Mexico
 
-This graph shows the proportion of individuals in each ethnic group (Afor-descendant, Indigenous, Mestizos, Whites and Others) per Skin Tone. 
+This graph shows the proportion of individuals in each ethnic group (Afro-descendant, Indigenous, Mestizos, Whites and Others) per Skin Tone. 
 Skin tonnes are simplified from the PERLA scale to form 4 groups: Dark-Skin, Brown, Light-Brown and Light-Skin (White).
 
 ## Data
