@@ -22,7 +22,7 @@ fig <- plot_ly() %>%
     y           = df$`In Pesos`,
     name        = '<--Mexican Pesos',
     offsetgroup = 1, 
-    marker      = list(color = "#332288")
+    marker      = list(color = "#A6763C")
     ) %>%
   add_bars(
     x           = df$`Income Level`,
@@ -30,7 +30,7 @@ fig <- plot_ly() %>%
     name        = 'As a % of Current Income-->',
     yaxis       = "y2", 
     offsetgroup = 2, 
-    marker      = list(color = "#44AA99")
+    marker      = list(color = "#F2C53D")
     ) %>%
   layout(
     yaxis      = list(
@@ -52,7 +52,7 @@ fig <- plot_ly() %>%
     title   = "Average Alcohol Houshold Spending<br>By Income Level",
     font    = list(size = 20),
     annotations  = list(x         = 1.02,
-                        y         = -0.12,
+                        y         = -0.080,
                         text      = "Source: ENIGH 2020", 
                         showarrow = F,
                         xref      = 'paper',
