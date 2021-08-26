@@ -13,3 +13,6 @@ Twitter: [@ElPete96](https://twitter.com/ElPete96)
 |----------|-------------------|--------------------------------------------------------------------------------------------------------------|
 |12-08-2021| Inequality in LAC | [Repository](https://github.com/PedroToL/TidyData/tree/main/12-08-2021%20(Inequality%20in%20Latin%20America))|
 |19-08-2021| Skin Tone & Ethnic Identity (Mexico)|[Repository](https://github.com/PedroToL/TidyData/tree/main/19-08-2021%20(Ethnic%20Identity%20%26%20Skin%20Tone))|
+|26-08-2021| Retails, gorceries & misscellanous | [Repository](https://github.com/PedroToL/TidyData/tree/main/26-08-2021%20(Retail,%20groceries%20and%20miscellaneous)) |
+
+
