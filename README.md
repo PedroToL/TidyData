@@ -16,5 +16,6 @@ Twitter: [@ElPete96](https://twitter.com/ElPete96)
 |26-08-2021| Retails, gorceries & misscellanous | [Repository](https://github.com/PedroToL/TidyData/tree/main/26-08-2021%20(Retail,%20groceries%20and%20miscellaneous)) |
 |02-09-2021| Morning & COVID Press Conferences | [Repository](https://github.com/PedroToL/TidyData/tree/main/03-09-2021%20(Press%20Conferences)) |
 |09-09-2021| Avocado Exports | [Repository](https://github.com/PedroToL/TidyData/tree/main/10-09-2021%20(Avocado%20Exports)) |
+|23-09-2021| Income Inequality MEX | [Repository](https://github.com/PedroToL/TidyData/tree/main/23-09-2021%20(Income%20Inequality)) |
 
 
